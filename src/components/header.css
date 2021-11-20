@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header .profile {
+  margin: 5px 0 5px 0;
+}
