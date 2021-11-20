@@ -2,7 +2,7 @@ import React from 'react';
 
 import './header.css';
 
-const Header = function () {
+const Header = function header() {
   return (
     <section className="header">
       <h1 className="profile">Profile</h1>

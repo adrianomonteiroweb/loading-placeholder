@@ -1,0 +1,22 @@
+.user-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-section .user {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.user-section h3,
+.user-section span {
+  margin: 5px;
+}
+
+.user-div {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}

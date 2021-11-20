@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #b1b8d4;
+  background-color: aliceblue;
   display: grid;
   font-family: 'Poppins', sans-serif;
   height: 100vh;
@@ -12,30 +12,7 @@ body {
 }
 
 .card {
-  background-color: #ebebeb;
-  border-radius: 4px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  width: 25rem;
-  padding: 1rem;
-}
-
-.card__image {
-  background-color: orange;
-  border-radius: 4px;
-  height: 6rem;
-  margin-right: 1rem;
-  width: 6rem;
-}
-
-.card__text .heading {
-  font-size: 1.4em;
-  margin-bottom: 4px;
-}
-
-.card__text .paragraph {
-  font-size: -8em;
 }
 
 .loading {

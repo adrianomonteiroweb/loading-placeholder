@@ -1,11 +1,13 @@
 import React from 'react';
 
 import Header from './components/Header';
+import User from './components/User';
 
-const App = function () {
+const App = function app() {
   return (
     <>
       <Header />
+      <User />
       <div className="card">
         <div className="card__image loading">
           {}
