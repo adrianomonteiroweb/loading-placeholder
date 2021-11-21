@@ -11,10 +11,6 @@ body {
   place-items: center;
 }
 
-.card {
-  box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
-}
-
 .loading {
   background-color: #b8b8b8;
   overflow: hidden;

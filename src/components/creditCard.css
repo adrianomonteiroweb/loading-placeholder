@@ -1,0 +1,7 @@
+.credit-cards-section {
+  border-radius: 8px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+  height: 100px;
+  margin: 5px 0 5px 0;
+  width: 300px;
+}

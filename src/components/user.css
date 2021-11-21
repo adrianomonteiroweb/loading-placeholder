@@ -15,8 +15,22 @@
   margin: 5px;
 }
 
-.user-div {
+.user-image-div {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+}
+
+.user-name-div {
+  border-radius: 4px;
+  height: 30px;
+  margin: 5px;
+  width: 150px;
+}
+
+.user-div {
+  border-radius: 4px;
+  height: 30px;
+  margin: 5px;
+  width: 150px;
 }

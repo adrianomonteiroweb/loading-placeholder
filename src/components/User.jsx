@@ -2,20 +2,19 @@ import React from 'react';
 
 import './user.css';
 import '../index.css';
-import user from '../images/user.jpg';
 
 const User = function userFunction() {
   return (
     <section className="user-section">
-      <div className="user-div loading">
-        <img
-          src={ user }
-          className="user"
-          alt="User"
-        />
+      <div className="user-image-div loading">
+        {}
       </div>
-      <h3>Letícia Borges</h3>
-      <span>@letborges23</span>
+      <div className="user-name-div loading">
+        {}
+      </div>
+      <div className="user-div loading">
+        {}
+      </div>
     </section>
   );
 };
