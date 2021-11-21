@@ -1,5 +1,6 @@
 const data = [
   {
+    image: '../images/user.jpg',
     name: 'Letícia',
     lastName: 'Borges',
     user: 'letborges23',
