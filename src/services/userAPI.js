@@ -36,8 +36,8 @@ export const getUserById = (userId) => {
 
 export const updateUser = (updatedUser) => (
   new Promise((resolve) => {
-    const user = readMovies().map((u) => {
-      if (u.id === parseInt(updatedMovie.id, 10)) {
+    const user = readUser().map((u) => {
+      if (u.id === parseInt(updatedUser.id, 10)) {
         return { ...u, ...updatedUser };
       }
       return u;

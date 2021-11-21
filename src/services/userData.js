@@ -1,9 +1,12 @@
+import photo from '../images/user.jpg';
+
 const data = [
   {
-    image: '../images/user.jpg',
+    email: 'letborges23@gmail.com',
+    image: photo,
     name: 'Letícia',
     lastName: 'Borges',
-    user: 'letborges23',
+    user: '@letborges23',
     cards: {
       account: {
         account: '01234567',

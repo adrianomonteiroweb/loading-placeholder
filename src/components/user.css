@@ -15,7 +15,8 @@
   margin: 5px;
 }
 
-.user-image-div {
+.user-image-div,
+.user-image {
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -23,14 +24,18 @@
 
 .user-name-div {
   border-radius: 4px;
+  display: flex;
   height: 30px;
+  justify-content: center;
   margin: 5px;
   width: 150px;
 }
 
 .user-div {
   border-radius: 4px;
+  display: flex;
   height: 30px;
+  justify-content: center;
   margin: 5px;
   width: 150px;
 }

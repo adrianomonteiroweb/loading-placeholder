@@ -6,18 +6,18 @@ import '../index.css';
 
 class User extends React.Component {
   render() {
-    const { loading } = this.props;
+    const { user: { image, name, lastName, user }, loading } = this.props;
     const statusLoading = loading ? ' loading' : '';
     return (
       <section className="user-section">
         <div className={ `user-image-div${statusLoading}` }>
-          {}
+          { <img src={ image } className="user-image" alt={ user } /> || {} }
         </div>
         <div className={ `user-name-div${statusLoading}` }>
-          {}
+          { <h3>{name} {lastName}</h3> || {} }
         </div>
         <div className={ `user-div${statusLoading}` }>
-          {}
+          { <span>{user}</span> || {} }
         </div>
       </section>
     );
