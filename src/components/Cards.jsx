@@ -1,14 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './cards.css';
 import CreditCard from './CreditCard';
 
-const Cards = function cards() {
-  return (
-    <section className="cards-section">
-      <CreditCard />
-    </section>
-  );
-};
+class Cards extends React.Component {
+  render() {
+    const { loading, user } = this.props;
+    const statusLoading = loading ? ' loading' : '';
+    const isCreditCard = () => !loading ? <CreditCard user={ user } /> : undefined;
+    return (
+      <section className={`cards-section${statusLoading}`}>
+        {  isCreditCard() }
+      </section>
+    );
+  }
+}
+
+Cards.propTypes = {
+  loading: PropTypes.bool,
+  user: PropTypes.shape(),
+}.isRequired;
 
 export default Cards;

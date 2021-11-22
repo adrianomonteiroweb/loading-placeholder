@@ -6,18 +6,37 @@ import '../index.css';
 
 class CreditCard extends React.Component {
   render() {
-    const { loading } = this.props;
-    const statusLoading = loading ? ' loading' : '';
+    const {
+      user: {
+        cards: {
+          creditCards: {
+            number,
+            creditBalance,
+            fleg,
+          },
+        },
+      },
+    } = this.props;
     return (
-      <section className={ `credit-cards-section${statusLoading}` }>
-        {}
+      <section className="credit-cards-section">
+        <div className="account">
+          <span>{ number }</span>
+        </div>
+        <div className="credit-cards">
+          <div className="credit-balance">
+            <span>{ `$ ${creditBalance.toFixed(2)}` }</span>
+          </div>
+          <div className="fleg">
+            <p>{ fleg }</p>
+          </div>
+        </div>
       </section>
     );
   }
 }
 
 CreditCard.propTypes = {
-  loading: PropTypes.bool,
+  creditCards: PropTypes.shape(),
 }.isRequired;
 
 export default CreditCard;

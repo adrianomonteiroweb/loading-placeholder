@@ -7,20 +7,22 @@ const data = [
     name: 'Letícia',
     lastName: 'Borges',
     user: '@letborges23',
+    account: {
+      account: '01234567',
+      digit: '9',
+    },
+    agency: '0001',
+    balance: 750,
     cards: {
-      account: {
-        account: '01234567',
-        digit: '8',
-      },
-      agency: '0000',
       creditCards: {
-        number: '0000 0000 0000 0000',
+        number: '.... .... 2645 1655',
         dateValidity: {
           month: '05',
           year: '2025',
         },
         code: '025',
         fleg: 'master',
+        creditBalance: 2000,
       },
     },
   },
