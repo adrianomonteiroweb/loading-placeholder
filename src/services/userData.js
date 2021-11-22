@@ -1,4 +1,5 @@
 import photo from '../images/user.jpg';
+import fleg from  '../images/visa-seeklogo.com.svg';
 
 const data = [
   {
@@ -21,7 +22,7 @@ const data = [
           year: '2025',
         },
         code: '025',
-        fleg: 'master',
+        fleg: fleg,
         creditBalance: 2000,
       },
     },

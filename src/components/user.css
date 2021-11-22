@@ -25,17 +25,25 @@
 .user-name-div {
   border-radius: 4px;
   display: flex;
-  height: 30px;
+  height: 20px;
   justify-content: center;
-  margin: 5px;
+  margin-top: 5px;
   width: 150px;
+}
+
+.user-name-div .user-name {
+  color: #6e717c;
 }
 
 .user-div {
   border-radius: 4px;
   display: flex;
-  height: 30px;
+  height: 20px;
   justify-content: center;
-  margin: 5px;
+  margin-top: 5px;
   width: 150px;
+}
+
+.user-div .user {
+  color: #8b929c;
 }

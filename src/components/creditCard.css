@@ -1,5 +1,5 @@
 .credit-cards-section {
-  background-color: rgb(90, 56, 245);
+  background-color: #6e63f8;
   border-radius: 8px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
   color: aliceblue;
@@ -8,18 +8,18 @@
   height: 100px;
   justify-content: space-between;
   margin: 5px 0 5px 0;
-  width: 300px;
+  width: 280px;
 }
 
-.credit-cards-section .account {
+.credit-cards-section .account-div {
   margin: 20px 0 0 20px;
-  width: 275px;
+  width: 255px;
 }
 
-.credit-cards-section .credit-cards {
+.credit-cards-section .credit-cards-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 0 20px 20px;
-  width: 255px;
+  width: 240px;
 }

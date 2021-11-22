@@ -19,15 +19,15 @@ class CreditCard extends React.Component {
     } = this.props;
     return (
       <section className="credit-cards-section">
-        <div className="account">
+        <div className="account-div">
           <span>{ number }</span>
         </div>
-        <div className="credit-cards">
-          <div className="credit-balance">
+        <div className="credit-cards-div">
+          <div className="credit-balance-div">
             <span>{ `$ ${creditBalance.toFixed(2)}` }</span>
           </div>
-          <div className="fleg">
-            <p>{ fleg }</p>
+          <div className="fleg-div">
+            <img src={ fleg } className="fleg" alt="credit card" />
           </div>
         </div>
       </section>

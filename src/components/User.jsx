@@ -10,14 +10,14 @@ class User extends React.Component {
     const statusLoading = loading ? ' loading' : '';
     return (
       <section className="user-section">
-        <div className={ `user-image-div${statusLoading}` }>
+        <div className={ `user-image-div${ statusLoading }` }>
           { <img src={ image } className="user-image" alt={ user } /> || {} }
         </div>
-        <div className={ `user-name-div${statusLoading}` }>
-          { <h3>{name} {lastName}</h3> || {} }
+        <div className={ `user-name-div${ statusLoading }` }>
+          { <h3 className="user-name">{ name } { lastName }</h3> || {} }
         </div>
-        <div className={ `user-div${statusLoading}` }>
-          { <span>{user}</span> || {} }
+        <div className={ `user-div${ statusLoading }` }>
+          { <span className="user">{ user }</span> || {} }
         </div>
       </section>
     );
