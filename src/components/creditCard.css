@@ -1,8 +1,25 @@
 .credit-cards-section {
-  background-color: rgb(102, 115, 238);
+  background-color: rgb(90, 56, 245);
   border-radius: 8px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
   height: 100px;
+  justify-content: space-between;
   margin: 5px 0 5px 0;
   width: 300px;
+}
+
+.credit-cards-section .account {
+  margin: 20px 0 0 20px;
+  width: 275px;
+}
+
+.credit-cards-section .credit-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 20px 20px;
+  width: 255px;
 }

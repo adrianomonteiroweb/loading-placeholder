@@ -8,7 +8,7 @@ class Cards extends React.Component {
   render() {
     const { loading, user } = this.props;
     const statusLoading = loading ? ' loading' : '';
-    const isCreditCard = () => !loading ? <CreditCard user={ user } /> : undefined;
+    const isCreditCard = () => !loading ? <CreditCard user={ user } /> : '';
     return (
       <section className={`cards-section${statusLoading}`}>
         {  isCreditCard() }
