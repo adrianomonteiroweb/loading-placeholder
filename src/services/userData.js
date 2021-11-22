@@ -26,6 +26,26 @@ const data = [
         creditBalance: 2000,
       },
     },
+    expenses: [
+      {
+        expense: 'Lojas Magalu',
+        date: '15/05/2021',
+        hours: '17:48',
+        value: 129.9,
+      },
+      {
+        expense: 'Padaria Costa Mendes',
+        date: '22/05/2021',
+        hours: '10:05',
+        value: 16.9,
+      },
+      {
+        expense: 'Pizzaria 4 Estrelas',
+        date: '28/05/2021',
+        hours: '19:30',
+        value: 32.9,
+      },
+    ],
   },
 ];
 

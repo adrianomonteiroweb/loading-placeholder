@@ -1,0 +1,19 @@
+.each-expense-section {
+  margin-bottom: 10px;
+}
+
+.each-expense-section .each-expense-date {
+  text-align: center;
+}
+
+.each-expense-date .expense-date {
+  font-size: 14px;
+}
+
+.each-expense-section .each-expense {
+  text-align: center;
+}
+
+.each-expense .expense {
+  color: #6e717c;
+}

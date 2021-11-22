@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import Header from './components/Header';
 import User from './components/User';
 import Cards from './components/Cards';
+import Expenses from './components/Expenses';
 
 import { getUser } from './services/userAPI';
 import { setLogin } from './redux/actions';
@@ -40,6 +41,7 @@ class App extends React.Component {
         <Header />
         <User user={ user } loading={ loading } />
         <Cards user={ user } loading={ loading } />
+        <Expenses user={ user } loading={ loading } />
       </div>
     );
   }
