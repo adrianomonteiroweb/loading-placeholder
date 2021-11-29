@@ -41,3 +41,9 @@ body {
     transform: translateX(100%);
   }
 }
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

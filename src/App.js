@@ -6,6 +6,7 @@ import Header from './components/Header';
 import User from './components/User';
 import Cards from './components/Cards';
 import Expenses from './components/Expenses';
+import './index.css';
 
 import { getUser } from './services/userAPI';
 import { setLogin } from './redux/actions';
@@ -37,7 +38,7 @@ class App extends React.Component {
   render() {
     const { loading, user } = this.state;
     return (
-      <div>
+      <div className="content">
         <Header />
         <User user={ user } loading={ loading } />
         <Cards user={ user } loading={ loading } />
